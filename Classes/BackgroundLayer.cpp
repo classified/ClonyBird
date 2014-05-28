@@ -1,11 +1,10 @@
 #include "BackgroundLayer.h"
 
 BackgroundLayer::BackgroundLayer() {
-}
-;
+};
+
 BackgroundLayer::~BackgroundLayer() {
-}
-;
+};
 
 bool BackgroundLayer::init() {
 	if (!Layer::init()) {
